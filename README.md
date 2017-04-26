@@ -1,6 +1,6 @@
 # npmtest-proxy-addr
 
-#### test coverage for  [proxy-addr (v1.1.4)](https://github.com/jshttp/proxy-addr#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-proxy-addr.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-proxy-addr) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-proxy-addr.svg)](https://travis-ci.org/npmtest/node-npmtest-proxy-addr)
+#### basic test coverage for  [proxy-addr (v1.1.4)](https://github.com/jshttp/proxy-addr#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-proxy-addr.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-proxy-addr) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-proxy-addr.svg)](https://travis-ci.org/npmtest/node-npmtest-proxy-addr)
 
 #### Determine address of proxied request
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-proxy-addr/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-proxy-addr/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-proxy-addr/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-proxy-addr/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-proxy-addr/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-proxy-addr/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-proxy-addr/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-proxy-addr/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-proxy-addr/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-proxy-addr/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-proxy-addr/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-proxy-addr/build/coverage.html/index.html)
 
@@ -91,7 +91,8 @@
         "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
         "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
     },
-    "version": "1.1.4"
+    "version": "1.1.4",
+    "bin": {}
 }
 ```
 
